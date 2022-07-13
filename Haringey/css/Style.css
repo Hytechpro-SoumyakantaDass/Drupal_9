@@ -2179,7 +2179,7 @@ body {
 /* media above 1400px */
 @media (max-width: 1400px) {
 
-	/* .container,
+	.container,
 	.container-fluid,
 	.container-xxl,
 	.container-xl,
@@ -2192,7 +2192,7 @@ body {
 		padding-left: var(--bs-gutter-x, 0.75rem);
 		margin-right: auto;
 		margin-left: auto;
-	} */
+	}
 
 	/* page 2 search and bid css start*/
 	.list-inner-inputs-1 {
