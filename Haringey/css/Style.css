@@ -5,7 +5,7 @@ body {
 }
 
 /*overlay nav css start*/
-/* .overlay {
+.overlay {
 	height: 100%;
 	width: 0;
 	position: absolute;
@@ -15,7 +15,7 @@ body {
 	background-color: #e5e5e5;
 	overflow-x: hidden;
 	transition: 0.5s;
-} */
+}
 
 .overlay-content {
 	position: relative;
@@ -191,6 +191,10 @@ body {
 	padding-top: 8.75rem;
 	line-height: 3.688rem;
 	padding-bottom: 0.625rem;
+}
+
+.hero-text div { 
+	filter: grayscale(1) 
 }
 
 .section1_button1_ctn {
@@ -513,6 +517,17 @@ body {
 	width: 100%;
 	height: 100%;
 }
+.colon-link-listing span {
+	padding-right: 20px;
+	position: relative;
+	width: 40%;
+}
+
+.colon-link-listing span:before {
+	content: ":";
+	position: absolute;
+	right: 25px;
+}
 
 .list-inner-inputs h2 {
 	font-size: 24px;
@@ -526,7 +541,7 @@ body {
 	color: #585858;
 }
 
-.list-inner-inputs ul li {
+.listing-attributes {
 	font-size: 14px;
 	line-height: 21px;
 	color: #585858;
@@ -2082,7 +2097,12 @@ body {
 	.list-inner-inputs-1 {
 		border-radius: 10px;
 		border: none;
-		background-color: white;
+		background-color: hsl(0deg 0% 100%);
+		position: absolute;
+		right: 0;
+		height: 90%;
+		margin-top: 1.5%;
+		width: 72%;
 	}
 
 	.list-inner-inputs h1 {
@@ -2138,8 +2158,8 @@ body {
 	/* page 4 welcome to haringey css end*/
 }
 
-/* media 1350px-1400px */
-@media (min-width: 1350px) and (max-width: 1400px) {
+/* media 1350px above*/
+@media (min-width: 1350px) {
 
 	/* nav */
 	.nav-item .nav-link {
@@ -2152,7 +2172,7 @@ body {
 	/* page 1 index */
 	.card-title {
 		font-weight: 600;
-		font-size: 19px;
+		font-size: 20px;
 		line-height: 30px;
 		color: #4a4a4a;
 	}
@@ -2161,9 +2181,27 @@ body {
 	.list-inner-inputs-1 {
 		border-radius: 10px;
 		border: none;
-		background-color: white;
+		background-color: hsl(0deg 0% 100%);
+		position: absolute;
+		right: 0;
+		height: 90%;
+		margin-top: 1.5%;
+		width: 72%;
+	}
+	.propertyFigure img {
+		border: 1px solid #F5F5F5;
+		border-radius: 8px 0px 0px 8px;
+		width: auto;
+		height: auto;
 	}
 	/* page 2 property listing css end*/
+
+	/* page 3 property search css start*/
+	.map-property-details {
+		width: 100%;
+		height: 33rem;
+	}
+	/* page 3 property search css end*/
 
 	/* page 4 welcome to haringey css start*/
 	.welcome-to h2 {
@@ -2173,10 +2211,10 @@ body {
 		color: #4A4A4A;
 		padding: 40px 0px 15px 0px;
 	}
-	/* page 4 welcome to haringey css end*/
+	/* page 4 welcome to haringey css end*/	
 }
 
-/* media above 1400px */
+/* media below 1400px */
 @media (max-width: 1400px) {
 
 	.container,
@@ -2194,37 +2232,5 @@ body {
 		margin-left: auto;
 	}
 
-	/* page 2 search and bid css start*/
-	.list-inner-inputs-1 {
-		border-radius: 10px;
-		border: none;
-		background-color: hsl(0deg 0% 100%);
-		position: absolute;
-		right: 0;
-		height: 90%;
-		margin-top: 1.5%;
-		width: 72%;
-	}
-
-	.list-inner-inputs h1 {
-		font-size: 24px;
-		line-height: 36px;
-		color: #0474B0;
-		padding-top: 15px;
-	}
-
-	.propertyFigure img {
-		border: 1px solid #F5F5F5;
-		border-radius: 8px 0px 0px 8px;
-		width: auto;
-		height: auto;
-	}
-	/* page 2 search and bid css end*/
-
-	/* page 3 property search css start*/
-	.map-property-details {
-		width: 100%;
-		height: 33rem;
-	}
-	/* page 3 property search css end*/
+	
 }
