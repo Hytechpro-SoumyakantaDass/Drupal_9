@@ -302,7 +302,7 @@
                   <div class="container px-4 py-5 px-md-5 text-center text-lg-start my-5">
                      <div class="row gx-lg-5 mb-5">
                         <div class="col-lg-7">
-                           <h2 class="text-white">Account <br> Details </h2>
+                           <h2 id="head" class="text-white" style="display: none;">Account <br> Details </h2>
                         </div>
                         <div class="col-lg-5 mb-5 mb-lg-0 position-relative">
                            <div class="card bg-glass-account-info">
@@ -336,7 +336,9 @@
                                     </tbody>
                                  </table>
                                  <div class="text-center">
-                                    <button type="button" class="Contact-info-cta btn-block mb-4" onclick="myFunction()"  
+                                    <button type="button" class="Contact-info-cta btn-block mb-4"
+                                       onclick="myFunctionaccount()"
+                                       onclick="myFunction()"  
                                        data-bs-toggle="modal" data-bs-target="#exampleModal">
                                     Contact info
                                     </button>
@@ -344,12 +346,14 @@
                               </div>
                            </div>
                            <!-- Modal -->
+
                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                               <div class="modal-dialog">
                                  <div class="modal-content">
                                     <div class="modal-header">
                                        <h5 class="modal-title" id="exampleModalLabel">Contact details</h5>
-                                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                       <button type="button" class="btn-close" data-bs-dismiss="modal" 
+                                       aria-label="Close" onclick="myFunctionaccount1()"></button>
                                     </div>
                                     <div class="modal-body">
                                        If any of the information is wrong, please contact us.
@@ -618,7 +622,7 @@
          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
          integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
          crossorigin="anonymous"
-         ></script>
+         ></script>        
       <script src="./js/common.js"></script>
    </body>
 </html>

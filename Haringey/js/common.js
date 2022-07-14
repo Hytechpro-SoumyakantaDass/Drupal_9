@@ -35,6 +35,14 @@ function closeNav() {
      document.getElementById("prebids").style.display="none";
      document.getElementById("seeAll").style.display="block";
    }
+  //  heading of account details toggale
+  
+      function myFunctionaccount(){
+      document.getElementById("head").style.display = "block";       
+      }  
+      function myFunctionaccount1(){
+      document.getElementById("head").style.display = "none";       
+      }
  
 
   // script to toggle grid and list for page 2 search and bid for homes
@@ -53,33 +61,5 @@ function closeNav() {
      }
    
  
-    //  gallery slider for page 3 property details
-     
-       $(document).ready(function () {
-         $("#carousel").flexslider({
-           animation: "slide",
-           controlNav: false,
-           animationLoop: true,
-           slideshow: true,
-           slideshowSpeed: 2000,
-           itemWidth: 210,
-           itemMargin: 5,
-           asNavFor: "#slider",
-           prevText: "Previous",
-           nextText: "Next",
-         });
-         $("#slider").flexslider({
-           animation: "slide",
-           controlNav: false,
-           slideshow: true,
-           animationLoop: true,
-           slideshowSpeed: 2000,
-           prevText: "Previous",
-           nextText: "Next",
-           sync: "#carousel",
-           start: function (slider) {
-             $("body").removeClass("loading");
-           },
-         });
-       });
+    
     

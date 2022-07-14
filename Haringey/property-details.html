@@ -508,6 +508,36 @@
          
          });
       </script>
+      <!-- gallery slider for page 3 property details -->
+      <script>
+      $(document).ready(function () {
+        $("#carousel").flexslider({
+          animation: "slide",
+          controlNav: false,
+          animationLoop: true,
+          slideshow: true,
+          slideshowSpeed: 2000,
+          itemWidth: 210,
+          itemMargin: 5,
+          asNavFor: "#slider",
+          prevText: "Previous",
+          nextText: "Next",
+        });
+        $("#slider").flexslider({
+          animation: "slide",
+          controlNav: false,
+          slideshow: true,
+          animationLoop: true,
+          slideshowSpeed: 2000,
+          prevText: "Previous",
+          nextText: "Next",
+          sync: "#carousel",
+          start: function (slider) {
+            $("body").removeClass("loading");
+          },
+        });
+      });
+      </script>
       <script src="./js/common.js"></script>
    </body>
 </html>
