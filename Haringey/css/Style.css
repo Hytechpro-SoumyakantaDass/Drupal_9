@@ -23,6 +23,11 @@ body {
 	text-align: left;
 	margin-top: 30px;
 	top: 11%;
+	padding-left: 3rem !important;
+}
+.overlay ul li{
+	padding-bottom: 0.25rem !important;
+	padding-top: 0.25rem !important;
 }
 
 .overlay a {
@@ -218,11 +223,30 @@ body {
 }
 
 /* section 2 cards */
-.section-2-card-style {
+.section-2-card .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 10px;
+    padding:40px 0px 10px 0px;
 	width: 100%;
 	box-shadow: 0px 0px 71px rgb(0 0 0 / 10%);
-	border-radius: 10px;
 	height: 100%;
+}
+.section-2-card{
+	padding-top: 45px;
+    padding-bottom: 85px;
+}
+.section-2-card .card-body{
+	padding-bottom: 25px;
+}
+.section-2-card a{
+	padding-left: 15px;
 }
 
 .card-title {
@@ -272,12 +296,23 @@ body {
 	box-shadow: -50px -50px rgba(111, 193, 85, 0.3);
 	border-radius: 10px;
 }
-
+.section-3-text{
+	padding-bottom: 65px;
+	padding-top: 40px;
+}
+.section-3-left{
+	padding-left: 20px;
+}
+.section-4-right{
+	padding-right: 20px;
+}
 .section-3-text h1 {
 	font-weight: 600;
 	font-size: 36px;
 	line-height: 54px;
 	color: #4a4a4a;
+	padding-top: 55px;
+    padding-bottom: 5px;
 }
 
 .section-3-text p {
@@ -285,6 +320,7 @@ body {
 	font-size: 18px;
 	line-height: 34px;
 	color: rgba(72, 72, 72, 0.75);
+	padding-bottom: 60px;
 
 }
 
@@ -305,12 +341,6 @@ body {
 	border-radius: 10px;
 }
 
-.section-3-text h2 {
-	font-weight: 600;
-	font-size: 36px;
-	line-height: 54px;
-	color: #4a4a4a;
-}
 
 /* section 5 */
 .bg-img-3 {
@@ -323,6 +353,8 @@ body {
 	font-size: 36px;
 	line-height: 54px;
 	color: #4a4a4a;
+	padding-top: 55px;
+    padding-bottom: 5px;
 }
 
 .section-4-flex-desktop {
@@ -381,7 +413,27 @@ body {
 	font-size: 10px;
 	bottom: 3px;
 }
-
+.breadCrumbLink span{
+	padding-left: 0.5rem !important;
+}
+.printer-vector{
+    padding-left: 1rem;
+}
+.grid-vector{
+	padding-left: 1rem;
+	padding-right: 0.5rem;
+}
+.list-vector{
+    padding-left: 1rem;
+	padding-right: 0.5rem;
+	padding-top: 0.25rem;
+}
+.search__and_bid_for_property{
+    margin-bottom: 15px;
+}
+.search__and_bid_for_property .accordion{
+	margin-bottom: 1rem;
+}
 .social_housing_to_rent_Cta {
 	font-weight: 400;
 	font-size: 16px;
@@ -391,7 +443,7 @@ body {
 	border: 2px solid #BBBBBB;
 	border-radius: 210px;
 	padding: 8px 28px 8px 28px;
-	margin-right: 10px;
+	margin: 20px 10px 20px 0px;
 }
 
 .social_housing_to_rent_Cta:hover {
@@ -442,6 +494,7 @@ body {
 	font-size: 16px;
 	line-height: 24px;
 	color: #585858;
+	padding-top: 0.75rem;
 }
 
 .form-inner-text .form-select {
@@ -454,6 +507,8 @@ body {
 	line-height: 1.5;
 	color: #585858;
 	background-color: #fff;
+	margin-top: 0.5rem;
+    padding: 0.5rem;
 }
 
 .search_for_property_advanced_link {
@@ -472,6 +527,7 @@ body {
 	border: 2px solid #E1E1E0;
 	border-radius: 4px;
 	padding: 8px 28px 8px 28px;
+	margin: 15px 0px 0px 10px;
 }
 
 .search_for_property_Cta:hover {
@@ -489,6 +545,7 @@ body {
 	border: 2px solid #E1E1E0;
 	border-radius: 4px;
 	padding: 8px 28px 8px 28px;
+	margin: 15px 0px 0px 10px;
 }
 
 .Reset_property_Cta:hover {
@@ -510,12 +567,17 @@ body {
 	margin: 20px 0;
 	position: relative;
 }
-
+.propertyFigure{
+	padding-left: 0;
+}
 .propertyFigure img {
 	border: 1px solid #F5F5F5;
 	border-radius: 8px 0px 0px 8px;
 	width: 100%;
 	height: 100%;
+}
+.colon-link-listing{
+	padding-bottom: 5px;
 }
 .colon-link-listing span {
 	padding-right: 20px;
@@ -527,6 +589,11 @@ body {
 	content: ":";
 	position: absolute;
 	right: 25px;
+}
+
+.list-inner-inputs{
+	padding-left: 20px;
+	padding-top: 10px;
 }
 
 .list-inner-inputs h2 {
@@ -557,11 +624,13 @@ body {
 	-webkit-box-orient: vertical;
 	overflow: hidden;
 	text-overflow: ellipsis;
+	padding-top: 5px;
 }
 
 .border-advertise-by {
 	border: 0.5px solid #F5F5F5;
 	border-radius: 4px;
+	padding: 1rem;
 }
 
 .list-inner-inputs h3 {
@@ -580,12 +649,16 @@ body {
 	border-radius: 4px;
 	border: none;
 	padding: 12px 25px 12px 25px;
+	margin: 15px 0px 15px 0px;
 }
 
 .full-property-details-cta:hover {
 	color: #0474B0;
 	background-color: white;
 	border: 1px solid #0474B0;
+}
+.search_advanced_link-padding{
+	padding-top: 1rem;
 }
 /* page 2 search and bid for homes css end*/
 
@@ -632,12 +705,12 @@ body {
 
 .border-left-breadcrum {
 	border-left: 1px solid #dee2e6 !important;
+	padding-left: 3rem !important;
+    padding-top: 1rem !important;
 }
 
-.breadcrum-right-ul-input-style {
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 21px;
+.breadcrum-right-style {
+	padding-top: 1.5rem !important;
 }
 
 .google-adds-text {
@@ -649,6 +722,10 @@ body {
 	border-radius: 4px;
 	padding: 100px 0px 100px 0px;
 	margin: 100px 0px 115px 0px
+}
+
+.gallery-flexsliders{
+	padding-right: 10px;
 }
 
 .gallery-flexsliders .flex-direction-nav .flex-disabled {
@@ -696,11 +773,6 @@ body {
 	text-shadow: 0.0625rem 0.0625rem 0 rgb(255 255 255 / 30%);
 }
 
-.map-property-details {
-	width: 100%;
-	height: 29rem;
-}
-
 .share-with-your-friend-cta {
 	font-weight: 400;
 	font-size: 18px;
@@ -718,6 +790,12 @@ body {
 	background-color: white;
 	border: 1px solid #468038;
 }
+
+/* .map-property-details {
+	width: 100%;
+	height: 32rem;
+	border: 2px solid #D2D2D2;
+} */
 
 .login-to-express-interest {
 	font-weight: 400;
@@ -767,6 +845,7 @@ body {
 	font-size: 26px;
 	line-height: 39px;
 	color: #484848;
+	padding: 20px 0px 20px 0px;
 }
 
 .sec-3-resp-tab .resp-tab-active {
@@ -807,11 +886,14 @@ body {
 	margin-bottom: 0px !important;
 	padding: 10px 15px !important;
 }
-
+.colon-link{
+	padding-bottom: 25px;
+}
 .colon-link span {
 	padding-right: 20px;
 	position: relative;
 	width: 50%;
+	margin-right: 15px;
 }
 
 .colon-link span:before {
@@ -824,6 +906,7 @@ body {
 	padding-right: 20px;
 	position: relative;
 	width: 50%;
+	margin-right: 15px;
 }
 
 .colon-link-1 span:before {
@@ -835,6 +918,10 @@ body {
 /* page 3 property details css end*/
 
 /* page 4 welcome to haringey css start*/
+.welcome-to{
+	padding-bottom: 70px;
+}
+
 .welcome-to h2 {
 	font-weight: 600;
 	font-size: 36px;
@@ -850,7 +937,9 @@ body {
 	color: rgba(72, 72, 72, 0.75);
 	padding-bottom: 12px;
 }
-
+.padding-top{
+padding-top: 20px;
+}
 .go-to-my-account-cta {
 	font-weight: 400;
 	font-size: 18px;
@@ -899,6 +988,8 @@ body {
 	border: none;
 	border-radius: 4px;
 	padding: 10px 30px 10px 30px;
+	margin-top: 15px;
+    margin-bottom: 25px;
 }
 
 .sign-in-cta:hover {
@@ -955,6 +1046,10 @@ body {
 .login-form .form-control::placeholder {
 	opacity: 0.15;
 }
+.login-form .form-outline{
+	margin-bottom: 1.5rem;
+}
+
 /* page 5 login css end*/
 
 /* page 6 account information css start*/
@@ -1027,6 +1122,7 @@ body {
 	border: none;
 	border-radius: 4px;
 	padding: 10px 30px 10px 30px;
+	margin-bottom: 1.5rem !important;
 }
 
 .Contact-info-cta:hover {
@@ -1082,6 +1178,13 @@ body {
 }
 
 /* 2 my current bids */
+.my-current-bids{
+	padding-bottom: 30px;
+}
+.my-current-bids ul{
+	margin-top: 10px;
+    margin-bottom: 35px;
+}
 .my-current-bids h2 {
 	font-weight: 600;
 	font-size: 36px;
@@ -1260,19 +1363,50 @@ body {
 	.section1_button1_ctn:hover {
 		color: black !important;
 	}
+	/* section 2 cards */
+	.section-2-card {
+		padding-top: 0px;
+		padding-bottom: 40px;
+	}
+	.card-margin{
+		margin-top: 1.5rem !important;
+	}
 
 	/* section 3 home available now */
+	.section-3-text {
+		padding-bottom: 50px;
+		padding-top: 10px;
+	}
 	.bg-img-1 {
 		box-shadow: -30px -30px rgba(111, 193, 85, 0.3);
 		border-radius: 10px;
 	}
-
+	.section-3-left{
+		padding-left: 50px;
+	}
+	.section-3-right{
+		padding-left: 30px;
+	}
+	.section-4-right{
+		padding-right: 50px;
+	}
 	.section-3-text h1 {
 		font-weight: 600;
 		font-size: 26px;
 		line-height: 39px;
 		color: #4a4a4a;
+		padding-top: 30px;
+   	    padding-bottom: 5px;
 	}
+	.section-3-text h2 {
+		font-weight: 600;
+		font-size: 26px;
+		line-height: 39px;
+		color: #4a4a4a;
+		padding-top: 30px;
+   	    padding-bottom: 5px;
+	}
+
 
 	.section-3-text p {
 		font-weight: 400;
@@ -1280,6 +1414,7 @@ body {
 		line-height: 28px;
 		color: rgba(72, 72, 72, 0.75);
 		padding-right: 0px;
+		padding-bottom: 10px;
 	}
 
 	.section-3-text a {
@@ -1303,6 +1438,9 @@ body {
 	/* page 1 index css end */
 
 	/* page 2 search and bid for homes css start*/
+	.breadCrumb ul li:nth-child(2){
+		margin-top: 15px;
+	}
 	.available_now_Cta {
 		width: 50%;
 		overflow: hidden;
@@ -1317,6 +1455,23 @@ body {
 
 	.display-none {
 		display: none;
+	}
+	.form-inner-text .form-select {
+		display: block;
+		width: 100%;
+		padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+		-moz-padding-start: calc(0.75rem - 3px);
+		font-size: 1rem;
+		font-weight: 400;
+		line-height: 1.5;
+		color: #585858;
+		background-color: #fff;
+		margin-top: 0.5rem;
+		padding: 0.5rem;
+		margin-bottom: 1rem !important;
+	}
+	.search_advanced_link-padding {
+		padding-top: 0rem;
 	}
 	/* page 2 search and bid for homes css end*/
 
@@ -1410,6 +1565,9 @@ body {
 		padding: 60px 0px 60px 0px;
 		margin: 40px 0px 40px 0px;
 	}
+	.colon-link-1{
+		padding-bottom: 25px;
+	}
 	/* page 3 property details css end*/
 
 	/* page 4 welcome to haringey css start*/
@@ -1436,6 +1594,12 @@ body {
 		padding: 20px 30px 20px 30px;
 	}
 	/* page 5 login css end*/
+
+	/* page 6 my account */
+	.my-current-bids .nav-item {
+		margin-right: 30px;
+		margin-left: 10px;
+	}	
 }
 
 /* media 521px-768px */
@@ -1498,13 +1662,35 @@ body {
 		line-height: 21px;
 		border-radius: 4px;
 	}
+	/* section 2 cards */
+	.section-2-card {
+		padding-top: 0px;
+		padding-bottom: 40px;
+	}
+	.card-margin{
+		margin-top: 1.5rem !important;
+	}
 
 	/* section 3 */
+	.section-3-text {
+		padding-bottom: 45px;
+		padding-top: 30px;
+	}
 	.section-3-text h1 {
 		font-weight: 600;
 		font-size: 30px;
 		line-height: 54px;
 		color: #4a4a4a;
+		padding-top: 20px;
+    	padding-bottom: 5px;
+	}
+	.section-3-text h2 {
+		font-weight: 600;
+		font-size: 30px;
+		line-height: 54px;
+		color: #4a4a4a;
+		padding-top: 20px;
+    	padding-bottom: 5px;
 	}
 
 	.section-3-text p {
@@ -1513,10 +1699,23 @@ body {
 		line-height: 28px;
 		color: rgba(72, 72, 72, 0.75);
 		padding-right: 0px;
+		padding-bottom: 10px;
+	}
+	.section-3-left {
+		padding-left: 50px;
+	}
+	.section-4-right{
+		padding-right: 50px;
+	}
+	.section-3-right{
+		padding-left: 30px;
 	}
 	/* page 1 index css end */
 
 	/* page 2 search and bid for homes css start*/
+	.breadCrumb ul li:nth-child(2){
+		margin-top: 15px;
+	}
 	.available_now_Cta {
 		width: 50%;
 		overflow: hidden;
@@ -1538,6 +1737,23 @@ body {
 
 	.display-none {
 		display: none;
+	}
+	.form-inner-text .form-select {
+		display: block;
+		width: 100%;
+		padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+		-moz-padding-start: calc(0.75rem - 3px);
+		font-size: 1rem;
+		font-weight: 400;
+		line-height: 1.5;
+		color: #585858;
+		background-color: #fff;
+		margin-top: 0.5rem;
+		padding: 0.5rem;
+		margin-bottom: 1rem !important;
+	}
+	.search_advanced_link-padding {
+		padding-top: 0rem;
 	}
 	/* page 2 search and bid for homes css end*/
 
@@ -1644,6 +1860,9 @@ body {
 		border: 1px solid #E4E4E4;
 		margin-bottom: 20px;
 	}
+	.colon-link-1{
+		padding-bottom: 25px;
+	}
 	/* page 3 property details css end*/
 
 	/* page 4 welcome to haringey css start*/
@@ -1668,6 +1887,23 @@ body {
 	.my-current-bids .nav-item {
 		margin-right: 30px;
 		margin-left: 10px;
+	}
+	.account-heading-tabs .nav-item {
+		margin: 10px 5px 10px 0px;
+	}
+	.account-heading-tabs .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+		color: #495057;
+		background-color: #fff;
+		border-color: #E5E5E5;
+		border-radius: 50px;
+		padding: 10px 10px;
+	}
+	.account-heading-tabs .nav-link {
+		display: block;
+		padding: 10px 10px;
+		color: #585858;
+		text-decoration: none;
+		transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 	}
 	/* page 6 my account css end*/
 }
@@ -1733,26 +1969,46 @@ body {
 		line-height: 21px;
 		border-radius: 4px;
 	}
+	/* section 2 card */
+	.section-2-card {
+		padding-top: 0px;
+		padding-bottom: 40px;
+	}
+	.card-margin{
+		margin-top: 1.5rem !important;
+	}
 
 	/* section 3 */
+	.section-3-text {
+		padding-bottom: 45px;
+		padding-top: 40px;
+	}
 	.section-3-text p {
 		font-weight: 400;
 		font-size: 15px;
 		line-height: 28px;
 		color: rgba(72, 72, 72, 0.75);
 		padding-right: 0px;
+		padding-bottom: 10px;
 	}
 	.section-3-text h1 {
 		font-weight: 600;
 		font-size: 32px;
 		line-height: 54px;
 		color: #4a4a4a;
+		padding-top: 20px;
+		padding-bottom: 5px;
 	}
 	.section-3-text h2 {
 		font-weight: 600;
 		font-size: 32px;
 		line-height: 54px;
 		color: #4a4a4a;
+		padding-top: 20px;
+		padding-bottom: 5px;
+	}
+	.section-3-right{
+		padding-left: 30px;
 	}
 	/* page 1 index css end */
 
@@ -1762,6 +2018,23 @@ body {
 		overflow: hidden;
 		white-space: nowrap;
 		text-overflow: ellipsis;
+	}
+	.form-inner-text .form-select {
+		display: block;
+		width: 100%;
+		padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+		-moz-padding-start: calc(0.75rem - 3px);
+		font-size: 1rem;
+		font-weight: 400;
+		line-height: 1.5;
+		color: #585858;
+		background-color: #fff;
+		margin-top: 0.5rem;
+		padding: 0.5rem;
+		margin-bottom: 1rem !important;
+	}
+	.search_advanced_link-padding {
+		padding-top: 0rem;
 	}
 	/* page 2 search and bid css end*/
 
@@ -1839,6 +2112,9 @@ body {
 		border-radius: 4px;
 		padding: 60px 0px 60px 0px;
 		margin: 40px 0px 40px 0px;
+	}
+	.colon-link-1{
+		padding-bottom: 25px;
 	}
 	/* page 3 property details css end*/
 
@@ -1977,6 +2253,15 @@ body {
 		line-height: 54px;
 		color: #4a4a4a;
 	}
+	.section-3-left {
+		padding-left: 50px;
+	}
+	.section-4-right {
+		padding-right: 50px;
+	}
+	.section-3-right {
+		padding-left: 30px;
+	}
 	/* page 1 index css end*/
 
 	/* page 2 search and bid for homes css start*/
@@ -1991,6 +2276,7 @@ body {
 	.map-property-details {
 		width: 100%;
 		height: 24rem;
+		border: 2px solid #D2D2D2!important;
 	}
 
 	.google-adds-text {
@@ -2091,6 +2377,15 @@ body {
 		color: rgba(72, 72, 72, 0.75);
 		padding-right: 0px;
 	}
+	.section-3-left {
+		padding-left: 50px;
+	}
+	.section-4-left {
+		padding-left: 50px;
+	}
+	.section-3-right {
+		padding-left: 30px;
+	}
 	/* page 1 index css end */
 
 	/* page 2 search and bid for homes css start*/
@@ -2147,6 +2442,14 @@ body {
 	}
 	/* page 2 search and bid for homes css end*/
 
+	/* page 3 property details start */
+	.map-property-details {
+		width: 100%;
+		height: 32.5rem;
+		border: 2px solid #D2D2D2!important;
+	}
+	/* page 3 property details start */
+
 	/* page 4 welcome to haringey css start*/
 	.welcome-to h2 {
 		font-weight: 600;
@@ -2176,6 +2479,9 @@ body {
 		line-height: 30px;
 		color: #4a4a4a;
 	}
+	.section-3-right {
+		padding-left: 30px;
+	}
 
 	/* page 2 property listing css start*/
 	.list-inner-inputs-1 {
@@ -2199,7 +2505,11 @@ body {
 	/* page 3 property search css start*/
 	.map-property-details {
 		width: 100%;
-		height: 33rem;
+		height: 32.5rem;
+		border: 2px solid #D2D2D2!important;
+	}
+	.gallery-flexsliders {
+		padding-right: 30px;
 	}
 	/* page 3 property search css end*/
 
@@ -2231,6 +2541,4 @@ body {
 		margin-right: auto;
 		margin-left: auto;
 	}
-
-	
 }
