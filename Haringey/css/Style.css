@@ -40,7 +40,8 @@ body {
 }
 
 .overlay a:hover,
-.overlay a:focus {
+.overlay a:focus,
+.overlay a:active {
 	color: black;
 }
 
@@ -123,8 +124,10 @@ body {
 	background-color: #F6F6F6;
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.nav-link:hover, .nav-link:focus, .nav-link:active {
+	color: #0473AF !important;
+}
+.active{
 	color: #0473AF !important;
 }
 
@@ -216,7 +219,7 @@ body {
 	border-radius: 4px;
 }
 
-.section1_button1_ctn:hover {
+.section1_button1_ctn:hover, .section1_button1_ctn:focus, .section1_button1_ctn:active {
 	color: #468038 !important;
 	background-color: white;
 	border: 1px solid #468038;
@@ -267,7 +270,7 @@ body {
 	color: rgba(72, 72, 72, 0.75);
 }
 
-.card:hover {
+.card:hover, .card:focus, .card:active {
 	color: white;
 	background-color: #0474b0;
 }
@@ -331,7 +334,7 @@ body {
 	color: rgba(72, 72, 72, 0.75);
 }
 
-.section-3-text a:hover {
+.section-3-text a:hover, .section-3-text a:focus, .section-3-text a:active {
 	color: #0473AF !important;
 }
 
@@ -372,7 +375,7 @@ body {
 	padding: 30px 0px 30px 0px;
 }
 
-.footer a:hover {
+.footer a:hover, .footer a:focus, .footer a:active{
 	color: #0473AF !important;
 }
 /* page 1 index css end */
@@ -418,15 +421,18 @@ body {
 }
 .printer-vector{
     padding-left: 1rem;
+	cursor: pointer;
 }
 .grid-vector{
 	padding-left: 1rem;
 	padding-right: 0.5rem;
+	cursor: pointer;
 }
 .list-vector{
     padding-left: 1rem;
 	padding-right: 0.5rem;
 	padding-top: 0.25rem;
+	cursor: pointer;
 }
 .search__and_bid_for_property{
     margin-bottom: 15px;
@@ -446,7 +452,7 @@ body {
 	margin: 20px 10px 20px 0px;
 }
 
-.social_housing_to_rent_Cta:hover {
+.social_housing_to_rent_Cta:hover, .social_housing_to_rent_Cta:focus , .social_housing_to_rent_Cta:active  {
 	border: none;
 	color: white;
 	background-color: #0473AF;
@@ -463,7 +469,7 @@ body {
 	padding: 8px 28px 8px 28px;
 }
 
-.available_now_Cta:hover {
+.available_now_Cta:hover, .available_now_Cta:focus , .available_now_Cta:active  {
 	border: none;
 	color: white;
 	background-color: #0473AF;
@@ -517,6 +523,11 @@ body {
 	line-height: 24px;
 	color: #035987;
 }
+.search_for_property_advanced_link:hover, 
+.search_for_property_advanced_link:focus, 
+.search_for_property_advanced_link:active {
+	color: #0a58ca;
+}
 
 .search_for_property_Cta {
 	font-weight: 400;
@@ -530,7 +541,7 @@ body {
 	margin: 15px 0px 0px 10px;
 }
 
-.search_for_property_Cta:hover {
+.search_for_property_Cta:hover, .search_for_property_Cta:focus, .search_for_property_Cta:active {
 	color: white;
 	background-color: #0473AF;
 	border: none;
@@ -548,11 +559,12 @@ body {
 	margin: 15px 0px 0px 10px;
 }
 
-.Reset_property_Cta:hover {
+.Reset_property_Cta:hover, .Reset_property_Cta:active, .Reset_property_Cta:focus{
 	color: white;
 	background-color: #0473AF;
 	border: none;
 }
+
 
 .list-heading-text {
 	font-weight: 400;
@@ -652,7 +664,7 @@ body {
 	margin: 15px 0px 15px 0px;
 }
 
-.full-property-details-cta:hover {
+.full-property-details-cta:hover, .full-property-details-cta:focus, .full-property-details-cta:active {
 	color: #0474B0;
 	background-color: white;
 	border: 1px solid #0474B0;
@@ -660,6 +672,7 @@ body {
 .search_advanced_link-padding{
 	padding-top: 1rem;
 }
+
 /* page 2 search and bid for homes css end*/
 
 /* page 3 property details css start*/
@@ -785,18 +798,15 @@ body {
 	padding: 20px 0px 20px 0px;
 }
 
-.share-with-your-friend-cta:hover {
+.share-with-your-friend-cta:hover, .share-with-your-friend-cta:focus, .share-with-your-friend-cta:active {
 	color: #468038;
 	background-color: white;
 	border: 1px solid #468038;
 }
 
-/* .map-property-details {
-	width: 100%;
-	height: 32rem;
-	border: 2px solid #D2D2D2;
-} */
-
+.flex-carousel-margin{
+	margin-bottom: 0px!important;
+}
 .login-to-express-interest {
 	font-weight: 400;
 	font-size: 18px;
@@ -809,7 +819,7 @@ body {
 	padding: 20px 0px 20px 0px;
 }
 
-.login-to-express-interest:hover {
+.login-to-express-interest:hover, .login-to-express-interest:focus, .login-to-express-interest:active {
 	color: #0474B0;
 	background-color: white;
 	border: 1px solid #0474B0;
@@ -817,6 +827,12 @@ body {
 
 .sec-3-resp-tab .resp-tab-content {
 	border: none;
+}
+.sec-3-resp-tab{
+	padding-top: 35px;
+}
+.resp-tabs-list{
+	padding-left: 1.5rem !important;
 }
 
 .sec-3-resp-tab .resp-tabs-list li {
@@ -831,7 +847,7 @@ body {
 	color: #484848;
 }
 
-.sec-3-resp-tab .resp-tabs-list li:hover {
+.sec-3-resp-tab .resp-tabs-list li:hover{
 	color: #0474B0;
 }
 
@@ -839,6 +855,7 @@ body {
 	border-bottom: 4px solid #0474B0;
 	background-color: #fff;
 	border-radius: 3px 3px 0px 0px;
+	color: #0474B0!important;
 }
 
 .overview-heading {
@@ -951,7 +968,7 @@ padding-top: 20px;
 	padding: 15px 92px 15px 92px;
 }
 
-.go-to-my-account-cta:hover {
+.go-to-my-account-cta:hover, .go-to-my-account-cta:focus, .go-to-my-account-cta:active {
 	background-color: white;
 	color: #0474B0;
 	border: 1px solid #0474B0;
@@ -992,7 +1009,7 @@ padding-top: 20px;
     margin-bottom: 25px;
 }
 
-.sign-in-cta:hover {
+.sign-in-cta:hover, .sign-in-cta:focus, .sign-in-cta:active {
 	color: #0473AF;
 	background-color: white;
 	border: 1px solid #0473AF;
@@ -1012,7 +1029,7 @@ padding-top: 20px;
 	color: black;
 }
 
-.login-form .card a:hover {
+.login-form .card a:hover, .login-form .card a:focus, .login-form .card a:active {
 	color: #0474B0 !important;
 	background-color: white !important;
 }
@@ -1125,7 +1142,7 @@ padding-top: 20px;
 	margin-bottom: 1.5rem !important;
 }
 
-.Contact-info-cta:hover {
+.Contact-info-cta:hover, .Contact-info-cta:focus, .Contact-info-cta:active {
 	color: #0473AF;
 	background-color: white;
 	border: 1px solid #0473AF;
@@ -1215,19 +1232,15 @@ padding-top: 20px;
 }
 
 .my-current-bids .nav-tabs .nav-link:hover,
-.nav-tabs .nav-link:focus {
+.my-current-bids .nav-tabs .nav-link:focus,
+.my-current-bids .nav-tabs .nav-link:active  {
 	isolation: isolate;
 	border-color: white white #C4C4C4 white;
 	color: #0474B0 !important;
 	background-color: white !important;
 }
 
-.my-current-bids .nav-link:hover {
-	color: #0473AF !important;
-	border-bottom: 4px solid #0474B0 !important;
-}
-
-.my-current-bids .nav-link:focus {
+.my-current-bids .nav-link:hover, .my-current-bids .nav-link:focus, .my-current-bids .nav-link:active {
 	color: #0473AF !important;
 	border-bottom: 4px solid #0474B0 !important;
 }
@@ -1360,9 +1373,6 @@ padding-top: 20px;
 		border-radius: 4px;
 	}
 
-	.section1_button1_ctn:hover {
-		color: black !important;
-	}
 	/* section 2 cards */
 	.section-2-card {
 		padding-top: 0px;
@@ -1504,6 +1514,9 @@ padding-top: 20px;
 		-moz-box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
 		-o-box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
 		box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
+	}
+	.sec-3-resp-tab {
+		padding-top: 10px;
 	}
 
 	.sec-3-resp-tab h2.resp-accordion {
@@ -1812,6 +1825,10 @@ padding-top: 20px;
 		margin: 40px 0px 40px 0px;
 	}
 
+	.sec-3-resp-tab {
+		padding-top: 10px;
+	}
+
 	.sec-3-resp-tab h2.resp-accordion {
 		font-size: 16px;
 		padding: 15px 10px;
@@ -2091,6 +2108,10 @@ padding-top: 20px;
 		padding: 15px 0px 15px 0px;
 	}
 
+	.sec-3-resp-tab {
+		padding-top: 10px;
+	}
+
 	.sec-3-resp-tab .resp-tabs-list li {
 		display: inline-block;
 		padding: 13px 25px !important;
@@ -2275,8 +2296,9 @@ padding-top: 20px;
 	/* page 3 property detail css start*/
 	.map-property-details {
 		width: 100%;
-		height: 24rem;
+		height: 75%;
 		border: 2px solid #D2D2D2!important;
+		border-radius: 4px;
 	}
 
 	.google-adds-text {
@@ -2445,8 +2467,9 @@ padding-top: 20px;
 	/* page 3 property details start */
 	.map-property-details {
 		width: 100%;
-		height: 32.5rem;
+		height: 75%;
 		border: 2px solid #D2D2D2!important;
+		border-radius: 4px;
 	}
 	/* page 3 property details start */
 
@@ -2505,8 +2528,9 @@ padding-top: 20px;
 	/* page 3 property search css start*/
 	.map-property-details {
 		width: 100%;
-		height: 32.5rem;
+		height: 75%;
 		border: 2px solid #D2D2D2!important;
+		border-radius: 4px;
 	}
 	.gallery-flexsliders {
 		padding-right: 30px;
@@ -2542,3 +2566,6 @@ padding-top: 20px;
 		margin-left: auto;
 	}
 }
+
+
+
