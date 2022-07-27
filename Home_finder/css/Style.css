@@ -39,6 +39,9 @@ body {
 .nav-link:focus {
   color: #f29200 !important;
 }
+.active{
+  color: #f29200 !important;
+}
 
 .overlay li:last-child {
   padding-top: 5.625rem;
@@ -121,7 +124,9 @@ nav ul li {
   padding: 0.625rem 0rem 0.625rem 0rem;
   text-align: center;
 }
-.logintoBid_cta:hover {
+.logintoBid_cta:hover,
+.logintoBid_cta:focus,
+.logintoBid_cta:active {
   background-color: white;
   color: #a4195c;
   border: 0.0625rem solid #a4195c;
@@ -205,7 +210,9 @@ nav ul li {
   background: rgba(255, 255, 255, 0.6);
   font-size: 1.125rem;
 }
-.section1_button1_ctn:hover {
+.section1_button1_ctn:hover,
+.section1_button1_ctn:focus,
+.section1_button1_ctn:active {
   color: white;
   background: #a4195c;
   border: 0.0625rem solid #a4195c;
@@ -219,7 +226,9 @@ nav ul li {
   background: rgba(255, 255, 255, 0.6);
   font-size: 1.125rem;
 }
-.section1_button2_ctn:hover {
+.section1_button2_ctn:hover,
+.section1_button2_ctn:focus,
+.section1_button2_ctn:active {
   color: white;
   background: #a4195c;
   cursor: pointer;
@@ -253,7 +262,9 @@ nav ul li {
   margin-top: 0.625rem;
   font-size: 1.125rem;
 }
-.read_more_cta:hover {
+.read_more_cta:hover,
+.read_more_cta:focus,
+.read_more_cta:active {
   color: white;
   background: #a4195c;
   border: 0.0625rem solid #a4195c;
@@ -318,7 +329,7 @@ nav ul li {
 .resp-tab-active div {
   border: none !important;
 }
-.section3-card-style h1 {
+.section3-card-style h2 {
   font-size: 2.5rem;
   font-weight: 700;
   line-height: 2.9375rem;
@@ -342,7 +353,9 @@ nav ul li {
   font-size: 1.125rem;
   font-weight: 400;
 }
-.see_all_cta:hover {
+.see_all_cta:hover,
+.see_all_cta:focus,
+.see_all_cta:active {
   color: rgba(164, 25, 92, 1);
   background-color: white;
   border: 0.0625rem solid rgba(164, 25, 92, 1);
@@ -357,7 +370,9 @@ nav ul li {
   font-size: 1.125rem;
   font-weight: 400;
 }
-.findout-more-cta:hover {
+.findout-more-cta:hover,
+.findout-more-cta:focus,
+.findout-more-cta:active {
   color: rgba(64, 64, 64, 1);
   background-color: white;
   border: 0.0625rem solid rgba(64, 64, 64, 1);
@@ -373,7 +388,9 @@ nav ul li {
   font-weight: 400;
   padding: 0.625rem 0rem 0.625rem 0rem;
 }
-.see_all_cta3:hover {
+.see_all_cta3:hover,
+.see_all_cta3:focus,
+.see_all_cta3:active {
   color: rgba(164, 25, 92, 1);
   background-color: white;
   border: 0.0625rem solid rgba(164, 25, 92, 1);
@@ -389,7 +406,9 @@ nav ul li {
   font-weight: 400;
   padding: 0.625rem 0rem 0.625rem 0rem;
 }
-.findout-more-cta3:hover {
+.findout-more-cta3:hover,
+.findout-more-cta3:focus,
+.findout-more-cta3:active {
   color: rgba(64, 64, 64, 1);
   background-color: white;
   border: 0.0625rem solid rgba(64, 64, 64, 1);
@@ -417,7 +436,7 @@ nav ul li {
   height: 2.6875rem;
   font-size: 1.125rem;
 }
-.section4_benefits_of_joining h1 {
+.section3-card-style h1  {
   font-size: 2.5rem;
   font-weight: 500;
   padding-bottom: 1.875rem;
@@ -448,6 +467,13 @@ nav ul li {
   font-size: 1.125rem;
   border: 0.0625rem solid #a4195c;
   color: #484848;
+}
+.section4_benefits_of_joining h3{
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 2.9375rem;
+  color: #404040;
+  padding-bottom: 1.5625rem;
 }
 .section4_benefits_of_joining h2 {
   font-size: 1.5rem;
@@ -500,7 +526,9 @@ nav ul li {
   float: right;
   margin-right: 0.625rem;
 }
-.section4_button1_ctn:hover {
+.section4_button1_ctn:hover,
+.section4_button1_ctn:focus,
+.section4_button1_ctn:active {
   color: #545454;
   background-color: white;
   border: 0.0625rem solid #545454;
@@ -515,7 +543,9 @@ nav ul li {
   font-weight: 400;
   padding: 0.625rem 5.9375rem 0.625rem 5.9375rem;
 }
-.section4_button2_ctn:hover {
+.section4_button2_ctn:hover,
+.section4_button2_ctn:focus,
+.section4_button2_ctn:active {
   color: #a4195c;
   background-color: white;
   border: 0.0625rem solid #a4195c;
@@ -767,6 +797,7 @@ nav ul li {
   padding-bottom: 0.9375rem;
   text-align: left;
   padding-right: 1.875rem;
+  color: #000000;
 }
 .case-studies-para {
   font-size: 1.125rem;
@@ -791,7 +822,9 @@ nav ul li {
   height: 2.8125rem;
   margin-top: 1.875rem;
 }
-.case-studies_ctn:hover {
+.case-studies_ctn:hover,
+.case-studies_ctn:focus,
+.case-studies_ctn:active {
   color: #c54a18;
   background-color: white;
   border: 0.0625rem solid #c54a18;
@@ -961,7 +994,7 @@ nav ul li {
   border-radius: 20px 0px 0px 20px;
   bottom: 18.2rem;
 }
-.latest_news_card h1 {
+.latest_news_card h3 {
   font-size: 1.375rem;
   font-weight: 700;
   line-height: 1.6113rem;
@@ -982,7 +1015,7 @@ nav ul li {
 .latest-news-heading {
   font-size: 2.5rem;
   color: #404040;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 .card-body a {
   color: black;
@@ -999,7 +1032,9 @@ nav ul li {
   height: 2.8125rem;
   margin-top: 1.25rem;
 }
-.view_more_ctn:hover {
+.view_more_ctn:hover,
+.view_more_ctn:focus,
+.view_more_ctn:active {
   color: #c54a18;
   background-color: white;
   border: 0.0625rem solid #c54a18;
@@ -1032,7 +1067,9 @@ nav ul li {
 .latest_news_card a {
   font-size: 1rem;
 }
-.latest_news_card a:hover {
+.latest_news_card a:hover,
+.latest_news_card a:focus,
+.latest_news_card a:active {
   color: #c54a18 !important;
 }
 /* section 7 latest news css end*/
@@ -1041,7 +1078,7 @@ nav ul li {
 .section8-left-body {
   background-color: #404040;
 }
-.section8-left-body h1 {
+.section8-left-body h3 {
   color: #ffffff;
   font-size: 2.5rem;
   font-weight: 300;
@@ -1112,7 +1149,9 @@ footer ul li a {
   text-decoration: none;
   color: white;
 }
-footer ul li a:hover {
+footer ul li a:hover,
+footer ul li a:focus,
+footer ul li a:active {
   text-decoration: none;
   color: black;
 }
@@ -1160,9 +1199,13 @@ footer ul li a:hover {
 .footer_privacy_cookies_text {
   background-color: #962059;
   padding-top: 1.125rem;
-  padding-bottom: 1.125rem;
+
   font-size: 0.875rem;
   height: auto;
+}
+.footer_privacy_cookies_text p{
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 .footer_poweredby_text {
   text-align: right;
@@ -1170,7 +1213,9 @@ footer ul li a:hover {
 .footer_poweredby_homeconnection_text {
   color: #ffb938;
 }
-.footer_poweredby_homeconnection_text:hover {
+.footer_poweredby_homeconnection_text:hover,
+.footer_poweredby_homeconnection_text:focus,
+.footer_poweredby_homeconnection_text:active {
   color: black !important;
   cursor: pointer;
 }
@@ -1256,7 +1301,9 @@ footer ul li a:hover {
   background-color: #666666;
   margin-right: 0.5rem;
 }
-.Reset_property_Cta:hover {
+.Reset_property_Cta:hover,
+.Reset_property_Cta:focus,
+.Reset_property_Cta:active {
   color: #666666;
   background: white;
   border: 0.0625rem solid #666666;
@@ -1284,7 +1331,9 @@ footer ul li a:hover {
   color: white;
   background-color: #a4195c;
 }
-.search_for_property_Cta:hover {
+.search_for_property_Cta:hover,
+.search_for_property_Cta:focus,
+.search_for_property_Cta:active {
   color: #a4195c;
   background: white;
   border: 0.0625rem solid #a4195c;
@@ -1348,26 +1397,28 @@ footer ul li a:hover {
   color: #aaaaaa;
   cursor: pointer;
 }
-.btn1:hover {
+.btn1:hover,
+.btn1:focus,
+.btn1:active {
   background-color: #aaaaaa;
 }
 .btn1.active {
   background-color: white;
   color: #aaaaaa;
 }
-.property-listing-card-text h1 {
+.property-listing-card-text h2 {
   font-weight: 500;
   font-size: 1.375rem;
   line-height: 1.625rem;
   color: #353d42;
 }
-.property-listing-card-text h2 {
+.property-listing-card-text h3 {
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.1875rem;
   color: #686868;
 }
-.property-listing-card-text h3 {
+.property-listing-card-text p {
   font-weight: 500;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -1406,7 +1457,9 @@ footer ul li a:hover {
   border: none;
   padding: 0.8125rem 0.9375rem 0.8125rem 0.9375rem;
 }
-.property-details-cta:hover {
+.property-details-cta:hover,
+.property-details-cta:focus,
+.property-details-cta:active {
   color: #a4195c;
   background: white;
   border: 0.0625rem solid #a4195c;
@@ -1597,7 +1650,7 @@ footer ul li a:hover {
   padding-top: 3rem;
   padding-bottom: 2.8125rem;
 }
-.property-information h1 {
+.property-information h2 {
   font-weight: 500;
   font-size: 1.125rem;
   line-height: 1.3125rem;
@@ -1622,7 +1675,7 @@ footer ul li a:hover {
 .property-information-listing div ul li:nth-child(2) {
   color: #a86500;
 }
-.property-listing-description h1 {
+.property-listing-description h2 {
   font-weight: 500;
   font-size: 1.125rem;
   line-height: 1.3125rem;
@@ -1689,7 +1742,9 @@ footer ul li a:hover {
   font-weight: 400;
   padding: 0.3125rem;
 }
-.logintobid-login-cta:hover {
+.logintobid-login-cta:hover,
+.logintobid-login-cta:focus,
+.logintobid-login-cta:active {
   color: #ea5012;
   background: white;
   border: 0.0625rem solid #ea5012;
@@ -1725,7 +1780,9 @@ footer ul li a:hover {
   font-weight: 500;
   padding: 0.75rem 9.375rem 0.75rem 9.375rem;
 }
-.go-to-my-account-cta:hover {
+.go-to-my-account-cta:hover,
+.go-to-my-account-cta:focus,
+.go-to-my-account-cta:active {
   color: #d14610;
   background: white;
   border: 0.0625rem solid #d14610;
@@ -2068,7 +2125,7 @@ footer ul li a:hover {
   .resp-tabs-container {
     width: 100% !important;
   }
-  .section3-card-style h1 {
+  .section3-card-style h2 {
     font-size: 1.5rem;
     font-weight: 500;
     line-height: 1.75rem;
@@ -2475,7 +2532,7 @@ footer ul li a:hover {
     padding-bottom: 2.8125rem;
     padding-top: 1.5625rem;
   }
-  .latest_news_card h1 {
+  .latest_news_card h3 {
     font-size: 1.125rem;
     font-weight: 700;
     line-height: 1.3125rem;
@@ -2508,7 +2565,7 @@ footer ul li a:hover {
   /*section 7 latest news css css end*/
 
   /*section 8 trusted by css start*/
-  .section8-left-body h1 {
+  .section8-left-body h3 {
     color: #ffffff;
     font-size: 1.25rem;
     font-weight: 400;
@@ -2606,7 +2663,7 @@ footer ul li a:hover {
   .footer_privacy_cookies_text {
     background-color: #962059;
     padding-top: 1.125rem;
-    padding-bottom: 1.125rem;
+   
     font-size: 0.875rem;
     height: auto;
     color: #e5e5e5;
@@ -2761,7 +2818,7 @@ footer ul li a:hover {
   /*property search grid and list common css end*/
 
   /* home finder property details css start*/
-  .property-information h1 {
+  .property-information h2 {
     font-weight: 500;
     font-size: 1.5rem;
     line-height: 1.75rem;
@@ -2784,7 +2841,7 @@ footer ul li a:hover {
   .property-information-listing {
     border-top: none;
   }
-  .property-listing-description h1 {
+  .property-listing-description h2 {
     font-weight: 500;
     font-size: 1.5rem;
     line-height: 1.75rem;
@@ -3147,7 +3204,7 @@ footer ul li a:hover {
   .resp-tabs-container {
     width: 100% !important;
   }
-  .section3-card-style h1 {
+  .section3-card-style h2 {
     font-size: 1.5rem;
     font-weight: 500;
     line-height: 1.75rem;
@@ -3205,7 +3262,7 @@ footer ul li a:hover {
     padding-bottom: 1.5625rem;
     border-radius: 1.25rem 0rem 1.5625rem 0rem;
   }
-  .section3-card-style h1 {
+  .section3-card-style h2 {
     font-size: 2rem;
     font-weight: 500;
     line-height: 2.5rem;
@@ -3548,7 +3605,7 @@ footer ul li a:hover {
     padding-top: 1.875rem;
   }
   /* trusted by */
-  .section8-left-body h1 {
+  .section8-left-body h3 {
     font-size: 1.875rem;
     line-height: 2.1875rem;
   }
@@ -4247,7 +4304,7 @@ footer ul li a:hover {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
   }
-  .section3-card-style h1 {
+  .section3-card-style h2 {
     font-size: 2.1875rem;
     font-weight: 700;
     line-height: 2.5rem;
@@ -4461,7 +4518,7 @@ footer ul li a:hover {
     font-weight: 400;
     line-height: 3.75rem;
   }
-  .section8-left-body h1 {
+  .section8-left-body h3 {
     color: #ffffff;
     font-size: 2rem;
     font-weight: 300;
@@ -4524,7 +4581,7 @@ footer ul li a:hover {
   .footer_privacy_cookies_text {
     background-color: #962059;
     padding-top: 1.125rem;
-    padding-bottom: 1.125rem;
+    
     font-size: 0.875rem;
     height: auto;
   }
@@ -4943,7 +5000,7 @@ footer ul li a:hover {
     border-top-left-radius: 0.625rem;
     padding-left: 4.0625rem;
   }
-  .section3-card-style h1 {
+  .section3-card-style h2 {
     font-size: 2.25rem;
     font-weight: 700;
     line-height: 2.9375rem;
@@ -5077,7 +5134,7 @@ footer ul li a:hover {
     font-weight: 400;
     line-height: 6.25rem;
   }
-  .section8-left-body h1 {
+  .section8-left-body h3 {
     color: #ffffff;
     font-size: 2.1875rem;
     font-weight: 300;
@@ -5123,7 +5180,7 @@ footer ul li a:hover {
   .footer_privacy_cookies_text {
     background-color: #962059;
     padding-top: 1.125rem;
-    padding-bottom: 1.125rem;
+    
     font-size: 0.875rem;
     height: auto;
   }
@@ -5486,7 +5543,7 @@ footer ul li a:hover {
     padding-left: 3.75rem;
     padding-right: 3.125rem;
   }
-  .section3-card-style h1 {
+.section3-card-style h2 {
     font-size: 2.375rem;
     font-weight: 700;
     line-height: 2.9375rem;
