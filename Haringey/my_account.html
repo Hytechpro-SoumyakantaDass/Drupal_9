@@ -274,12 +274,12 @@
                </li>
                <li class="nav-item" onclick="currentbids()">
                   <a class="nav-link" data-bs-toggle="tab" href="#menu11"
-                     >MY CURRENT BIDS</a
+                     >My Current Bid</a
                      >
                </li>
                <li class="nav-item" onclick="prebids()">
                   <a class="nav-link" data-bs-toggle="tab" href="#menu22"
-                     >MY PREVIOUS BIDS</a
+                     >My Previous Bid</a
                      >
                </li>
                <li class="nav-item" onclick="seeAll()">
@@ -287,7 +287,15 @@
                      class="nav-link border-bottom-sm"
                      data-bs-toggle="tab"
                      href="#menu33"
-                     >SEE ALL PROPERTIES</a
+                     >See All Properties</a
+                     >
+               </li>
+               <li class="nav-item" onclick="inbox()">
+                  <a
+                     class="nav-link border-bottom-sm inbox-input"
+                     data-bs-toggle="tab"
+                     href="#menu43"
+                     >Inbox</a
                      >
                </li>
             </ul>
@@ -382,7 +390,7 @@
                   <!-- Tab panes -->
                   <div class="tab-content">
                      <div id="menu111" class="tab-pane active">
-                           <table class="table">
+                           <table class="table table-current-bids">
                               <tbody>
                                  <tr>
                                     <th scope="col">Advert ref.</th>
@@ -444,7 +452,7 @@
                            </table>
                      </div>
                      <div id="menu222" class="tab-pane fade">
-                           <table class="table">
+                           <table class="table table-current-bids">
                               <tbody>
                                  <tr>
                                     <th scope="col">Advert ref.</th>
@@ -512,7 +520,7 @@
                >
                <div class="container">
                   <h2>My previous bids</h2>
-                  <table class="table">
+                  <table class="table table-current-bids">
                      <tbody>
                         <tr>
                            <th scope="col">Advert ref.</th>
@@ -574,10 +582,186 @@
                   </table>
                </div>
             </div>
-            <div id="menu33" class="tab-pane fade">
+            <div id="menu33" class="tab-pane fade my-current-bids">
                <div class="container">
-                  <h3>see-all-properties</h3>
-                  <p>hoshito is the capital of Japan.</p>
+                  <h2>See All Properties</h2>
+                  <table class="table table-current-bids">
+                     <tbody>
+                        <tr>
+                           <th scope="col">Advert ref.</th>
+                           <th scope="col">Address</th>
+                           <th scope="col">Bedrooms</th>
+                           <th scope="col">Closing date</th>
+                           <th scope="col">Total bids</th>
+                           <th scope="col">Bid position</th>
+                        </tr>
+                        <tr>
+                           <td>380326</td>
+                           <td>7 Cedar House Acacia Road</td>
+                           <td>3</td>
+                           <td>02/07/2021</td>
+                           <td>19</td>
+                           <td>18</td>
+                        </tr>
+                        <tr>
+                           <td>380326</td>
+                           <td>7 Cedar House Acacia Road</td>
+                           <td>3</td>
+                           <td>02/07/2021</td>
+                           <td>19</td>
+                           <td>18</td>
+                        </tr>
+                        <tr>
+                           <td>380326</td>
+                           <td>7 Cedar House Acacia Road</td>
+                           <td>3</td>
+                           <td>02/07/2021</td>
+                           <td>19</td>
+                           <td>18</td>
+                        </tr>
+                        <tr>
+                           <td>380326</td>
+                           <td>7 Cedar House Acacia Road</td>
+                           <td>3</td>
+                           <td>02/07/2021</td>
+                           <td>19</td>
+                           <td>18</td>
+                        </tr>
+                        <tr>
+                           <td>380326</td>
+                           <td>7 Cedar House Acacia Road</td>
+                           <td>3</td>
+                           <td>02/07/2021</td>
+                           <td>19</td>
+                           <td>18</td>
+                        </tr>
+                        <tr>
+                           <td>380326</td>
+                           <td>7 Cedar House Acacia Road</td>
+                           <td>3</td>
+                           <td>02/07/2021</td>
+                           <td>19</td>
+                           <td>18</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+            <div id="menu43" class="tab-pane fade my-current-bids">
+               <div class="container">
+                  <h2>Inbox</h2>
+                  <!-- Nav tabs -->
+                  <ul class="nav nav-tabs" role="tablist">
+                     <li class="nav-item">
+                        <a class="nav-link active" data-bs-toggle="tab" href="#inbox"
+                           >Inbox</a
+                           >
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#send"
+                           >Send</a
+                           >
+                     </li>
+                  </ul>
+                  <!-- Tab panes -->
+                  <div class="tab-content">
+                     <div id="inbox" class="tab-pane active">
+                           <table class="table table-inbox">
+                              <tbody>
+                                 <tr>
+                                    <th scope="col">Date</th>
+                                    <th scope="col">From</th>
+                                    <th scope="col">Subject</th>
+                                    <th scope="col">Action</th>                                    
+                                 </tr>                                
+                                 <tr>
+                                    <td>02/07/2021</td>
+                                    <td>Quis handrerit velit aliquest habitant</td>
+                                    <td>Quis handrerit velit aliquest habitant</td>
+                                    <td><a href="#">Delete</a></td>                                    
+                                 </tr>
+                                 <tr>
+                                    <td>02/07/2021</td>
+                                    <td>Quis handrerit velit aliquest habitant</td>
+                                    <td>Quis handrerit velit aliquest habitant</td>
+                                    <td><a href="#">Delete</a></td>                                    
+                                 </tr>
+                                 <tr>
+                                    <td>02/07/2021</td>
+                                    <td>Quis handrerit velit aliquest habitant</td>
+                                    <td>Quis handrerit velit aliquest habitant</td>
+                                    <td><a href="#">Delete</a></td>                                    
+                                 </tr>
+                                 <tr>
+                                    <td>02/07/2021</td>
+                                    <td>Quis handrerit velit aliquest habitant</td>
+                                    <td>Quis handrerit velit aliquest habitant</td>
+                                    <td><a href="#">Delete</a></td>                                    
+                                 </tr>
+                                 <tr>
+                                    <td>02/07/2021</td>
+                                    <td>Quis handrerit velit aliquest habitant</td>
+                                    <td>Quis handrerit velit aliquest habitant</td>
+                                    <td><a href="#">Delete</a></td>                                    
+                                 </tr>
+                                 <tr>
+                                    <td>02/07/2021</td>
+                                    <td>Quis handrerit velit aliquest habitant</td>
+                                    <td>Quis handrerit velit aliquest habitant</td>
+                                    <td><a href="#">Delete</a></td>                                    
+                                 </tr>
+                              </tbody>
+                           </table>
+                     </div>
+                     <div id="send" class="tab-pane fade">
+                        <table class="table table-inbox">
+                           <tbody>
+                              <tr>
+                                 <th scope="col">Date</th>
+                                 <th scope="col">From</th>
+                                 <th scope="col">Subject</th>
+                                 <th scope="col">Action</th>                                    
+                              </tr>                                
+                              <tr>
+                                 <td>02/07/2021</td>
+                                 <td>Quis handrerit velit aliquest habitant</td>
+                                 <td>Quis handrerit velit aliquest habitant</td>
+                                 <td><a href="#">Delete</a></td>                                    
+                              </tr>
+                              <tr>
+                                 <td>02/07/2021</td>
+                                 <td>Quis handrerit velit aliquest habitant</td>
+                                 <td>Quis handrerit velit aliquest habitant</td>
+                                 <td><a href="#">Delete</a></td>                                    
+                              </tr>
+                              <tr>
+                                 <td>02/07/2021</td>
+                                 <td>Quis handrerit velit aliquest habitant</td>
+                                 <td>Quis handrerit velit aliquest habitant</td>
+                                 <td><a href="#">Delete</a></td>                                    
+                              </tr>
+                              <tr>
+                                 <td>02/07/2021</td>
+                                 <td>Quis handrerit velit aliquest habitant</td>
+                                 <td>Quis handrerit velit aliquest habitant</td>
+                                 <td><a href="#">Delete</a></td>                                    
+                              </tr>
+                              <tr>
+                                 <td>02/07/2021</td>
+                                 <td>Quis handrerit velit aliquest habitant</td>
+                                 <td>Quis handrerit velit aliquest habitant</td>
+                                 <td><a href="#">Delete</a></td>                                    
+                              </tr>
+                              <tr>
+                                 <td>02/07/2021</td>
+                                 <td>Quis handrerit velit aliquest habitant</td>
+                                 <td>Quis handrerit velit aliquest habitant</td>
+                                 <td><a href="#">Delete</a></td>                                    
+                              </tr>
+                           </tbody>
+                        </table>                      
+                     </div>
+                  </div>
                </div>
             </div>
          </div>
