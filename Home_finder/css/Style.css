@@ -37,10 +37,10 @@ body {
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #f29200 !important;
+  color: #C2420F;
 }
 .active{
-  color: #f29200 !important;
+  color: #C2420F !important;
 }
 
 .overlay li:last-child {
@@ -775,6 +775,9 @@ nav ul li {
   background-position: bottom;
   border-radius: 0.5rem;
 }
+.case-study-bg {
+  background: linear-gradient( to bottom,#f5f5f5 0%, #f5f5f5 16%, white 16%, white 100% );
+}
 .success_stories_inner_section {
   position: absolute;
   width: 59.625rem;
@@ -1075,8 +1078,17 @@ nav ul li {
 /* section 7 latest news css end*/
 
 /*  section 8 Trusted by css start */
-.section8-left-body {
-  background-color: #404040;
+.sec-8-trusted-color{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    #404040 0%,
+    #404040 40%,
+    white 40%,
+    white 100%
+
+  );
 }
 .section8-left-body h3 {
   color: #ffffff;
@@ -1092,7 +1104,6 @@ nav ul li {
 }
 .trusted-by {
   padding-top: 7.1875rem;
-  padding-left: 7.5rem;
 }
 .display-lg-none {
   display: flex;
@@ -1815,6 +1826,9 @@ footer ul li a:active {
   padding-top: 1.875rem;
   padding-bottom: 0.9375rem;
 }
+.account-details-nav .nav-item{
+  justify-content: space-between;
+}
 .account-details table tr {
   color: #757575;
   padding-top: 2.5rem;
@@ -1836,6 +1850,11 @@ footer ul li a:active {
   padding-top: 1.0625rem;
   padding-bottom: 0.9375rem;
 }
+.my-current-bids .nav {
+ 
+  justify-content: space-between;
+ 
+}
 .my-current-bids table tr:last-child {
   border-bottom: hidden;
 }
@@ -1844,18 +1863,20 @@ footer ul li a:active {
   color: #a86500;
   background-color: #fff;
   border-bottom: 0.25rem solid #ea5012;
-  padding: 1rem 3.1875rem 1.25rem 5.1875rem;
 }
 .account-details-heading .nav-tabs .nav-link {
   margin-bottom: -0.0625rem;
   background: none;
-  border: 0.0625rem solid transparent;
+  border: 0rem solid transparent;
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
   padding: 1.25rem 4.1875rem 1.25rem 4.1875rem;
 }
 .account-details-heading .nav-tabs {
   border: 0.0625rem solid #e5e5e5;
+}
+.my-current-bids .nav{
+  background-color: #a4195c;
 }
 .my-current-bids .nav-tabs {
   border: none;
@@ -1888,10 +1909,9 @@ footer ul li a:active {
 }
 .my-current-bids .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: white;
-  background-color: #a4195c;
+  color: white!important;
+  background-color: #a4195c!important;
   border-color: #ffffff #fff #f29200;
-  padding: 1.25rem 4.0625rem 1.25rem 3.679rem;
   border-bottom: 0.3125rem solid #f29200;
   font-size: 1.125rem;
 }
@@ -1901,7 +1921,6 @@ footer ul li a:active {
   border: none;
   border-top-left-radius: 0rem;
   border-top-right-radius: 0rem;
-  padding: 1.375rem 5.5625rem 1.375rem 5.5625rem;
   background-color: #a4195c;
   color: white;
   font-size: 1.125rem;
@@ -3019,7 +3038,7 @@ footer ul li a:active {
   }
   .account-details-heading .nav-tabs .nav-link.active,
   .nav-tabs .nav-item.show .nav-link {
-    color: #f29200;
+    color: #f29200!important;
     background-color: #fff;
     border-bottom: none;
     padding: 1.25rem 4.1875rem 1.25rem 4.1875rem;
@@ -3044,8 +3063,8 @@ footer ul li a:active {
     border-top-left-radius: 0rem;
     border-top-right-radius: 0rem;
     padding: 1.25rem 4.1875rem 1.25rem 4.1875rem;
-    background-color: white;
-    color: black;
+    background-color: #a4195c!important;
+    color: white;
     font-size: 1.125rem;
   }
   .my-current-bids h3 {
@@ -3620,12 +3639,19 @@ footer ul li a:active {
   /*  section 8 Trusted by css start */
   .trusted-by {
     padding-top: 3.875rem;
-    padding-left: 6.75rem;
     padding-bottom: 3rem;
   }
-  .display-lg-none {
-    display: none !important;
+  .display-flex-lg-screen {
+    display: none!important;
   }
+  .display-lg-none {
+    display: flex;
+  }
+  .sec-8-trusted-color {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( to right, #404040 0%, #404040 65%, white 65%, white 100% );
+}
   /*  section 8 Trusted by css end */
 
   /* footer css start */
@@ -3959,7 +3985,7 @@ footer ul li a:active {
   }
   .account-details-heading .nav-tabs .nav-link.active,
   .nav-tabs .nav-item.show .nav-link {
-    color: #f29200;
+    color: #f29200!important;
     background-color: #fff;
     border-bottom: none;
     padding: 1.375rem 12.5rem 1.375rem 3.75rem;
@@ -3982,8 +4008,8 @@ footer ul li a:active {
     border-top-left-radius: 0rem;
     border-top-right-radius: 0rem;
     padding: 1.375rem 9.375rem 1.375rem 3.75rem;
-    background-color: white;
-    color: black;
+    background-color:#a4195c;
+    color: white;
     font-size: 1.125rem;
   }
   .my-current-bids h3 {
@@ -4507,7 +4533,6 @@ footer ul li a:active {
   /*  section 8 Trusted by css start */
   .trusted-by {
     padding-top: 6.875rem;
-    padding-left: 3.75rem;
   }
   .display-lg-none {
     display: none !important;
@@ -4524,6 +4549,12 @@ footer ul li a:active {
     font-weight: 300;
     line-height: 2.7rem;
   }
+  .sec-8-trusted-color {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( to right, #404040 0%, #404040 45%, white 45%, white 100% );
+}
+
   /*  section 8 Trusted by css end */
 
   /* footer css start */
@@ -4847,11 +4878,11 @@ footer ul li a:active {
   }
   .account-details-heading .nav-tabs .nav-link.active,
   .nav-tabs .nav-item.show .nav-link {
-    color: #f29200;
-    background-color: #fff;
+    color: #ea5012;
     border-bottom: 0.25rem solid #ea5012;
     padding: 1.375rem 0.625rem 1.375rem 0.3125rem;
     margin-left: 0;
+   
   }
   .myprivious-bids-heading {
     font-weight: 500;
@@ -4869,9 +4900,9 @@ footer ul li a:active {
     border-top-left-radius: 0rem;
     border-top-right-radius: 0rem;
     padding: 1.375rem 0.625rem 1.375rem 0.75rem;
-    background-color: white;
-    color: black;
+    color: white;
     font-size: 1.125rem;
+    background-color: #a4195c;
   }
   .my-current-bids h3 {
     font-size: 1.375rem;
@@ -5142,7 +5173,7 @@ footer ul li a:active {
   }
   .trusted-by {
     padding-top: 6.875rem;
-    padding-left: 4.375rem;
+   
   }
   .display-lg-none {
     display: none !important;
@@ -5351,8 +5382,8 @@ footer ul li a:active {
   }
   .account-details-heading .nav-tabs .nav-link.active,
   .nav-tabs .nav-item.show .nav-link {
-    color: #f29200;
-    background-color: #fff;
+    color: black;
+    background-color: white;
     border-bottom: 0.25rem solid #ea5012;
     padding: 1.375rem 0.9375rem 1.375rem 0.9375rem;
   }
@@ -5385,8 +5416,8 @@ footer ul li a:active {
     border-top-left-radius: 0rem;
     border-top-right-radius: 0rem;
     padding: 1.375rem 3.75rem 1.375rem 3.75rem;
-    background-color: white;
-    color: black;
+    background-color: #a4195c;
+    color: white;
     font-size: 1.125rem;
   }
   .my-current-bids h3 {
@@ -5716,8 +5747,8 @@ footer ul li a:active {
     border-top-left-radius: 0rem;
     border-top-right-radius: 0rem;
     padding: 1.4375rem 7.125rem 1.4375rem 3.75rem;
-    background-color: white;
-    color: black;
+    background-color: #a4195c!important;
+    color: white;
     font-size: 1.125rem;
     border-bottom: 0.0625rem solid #d0d0d0;
   }
@@ -5779,16 +5810,25 @@ footer ul li a:active {
   /* index page css end */
 
   /* account details css start*/
+  .account-details-nav .nav-item{
+    justify-content: space-between;
+    margin: auto;
+  }
   .my-current-bids .nav-tabs .nav-link.active,
   .nav-tabs .nav-item.show .nav-link {
-    color: white;
+    color: white!important;
     background-color: #a4195c;
     border-color: #ffffff #fff #f29200;
-    padding: 1.25rem 4.0625rem 1.25rem 3.679rem;
     border-bottom: 0.3125rem solid #f29200;
     font-size: 1.125rem;
     margin-left: 0;
   }
+  .my-current-bids .nav {
+    background-color: #a4195c;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
   .my-current-bids h3 {
     font-size: 1.5rem;
     line-height: 1.75rem;
@@ -5806,7 +5846,6 @@ footer ul li a:active {
     border: none;
     border-top-left-radius: 0rem;
     border-top-right-radius: 0rem;
-    padding: 1.375rem 5.5625rem 1.375rem 5.5625rem;
     background-color: #a4195c;
     color: white;
     font-size: 1.125rem;
