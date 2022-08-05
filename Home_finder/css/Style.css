@@ -1772,6 +1772,7 @@ footer ul li a:active {
 }
 .border-loginto-bid {
   border: 0.0625rem solid #dee2e6 !important;
+  border-radius: 0px 20px;
 }
 /* login to bid css end */
 
@@ -5809,6 +5810,31 @@ footer ul li a:active {
   /* footer css end */
   /* index page css end */
 
+/* login page css start */
+.containerr{
+  width: 80%;
+  margin-right: 0;
+}
+.box-relative{
+  position: relative;
+}
+.img-login{
+  position: absolute;
+    left: -240px;
+    top: 50px;
+    border-radius: 40px 0px;
+}
+/* login page css end */
+
+/* go to my account css start */
+.img-go-to-y-account{
+  position: absolute;
+    left: -240px;
+    top: 0px;
+    border-radius: 40px 0px;
+}
+/* go to my account end */
+
   /* account details css start*/
   .account-details-nav .nav-item{
     justify-content: space-between;
@@ -5838,7 +5864,7 @@ footer ul li a:active {
     padding: 1.25rem 0rem 1.25rem 1.25rem;
     border-bottom: 0.0625rem solid black;
     margin-bottom: 0rem;
-    border-radius: 0rem 0rem 0rem 0rem;
+    border-radius: 0rem 1rem 0rem 0rem;
   }
   .my-current-bids .nav-tabs .nav-link {
     margin-bottom: -0.0625rem;
@@ -5854,4 +5880,5 @@ footer ul li a:active {
     border: none;
   }
   /* account details css end*/
+
 }
