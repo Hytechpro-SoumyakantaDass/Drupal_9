@@ -1740,6 +1740,16 @@ footer ul li a:active {
   font-weight: 400;
   padding-top: 0.3125rem;
 }
+.login-to-bid-heading a {
+  font-size: 0.875rem;
+  line-height: 1rem;
+  font-weight: 400;
+  padding-top: 0.3125rem;
+  cursor: pointer;
+}
+.login-to-bid-heading a:hover{
+  color: #0063a0!important;
+}
 .form-check-input {
   cursor: pointer;
 }
@@ -1766,6 +1776,11 @@ footer ul li a:active {
   line-height: 1.375rem;
   font-weight: 400;
   text-align: center;
+}
+.login-to-bid-heading p a:hover,
+.login-to-bid-heading p a:focus,
+.login-to-bid-heading p a:active  {
+color: #0063a0;
 }
 .login-to-bid-heading .form-control {
   border-radius: 0rem;
