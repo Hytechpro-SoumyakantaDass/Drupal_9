@@ -5459,6 +5459,7 @@ color: #0063a0;
     top: 17rem;
     right: 3.125rem;
   }
+ 
   .section4_benefits_of_joining .owl-prev {
     position: absolute;
     top: 17rem;
@@ -5677,6 +5678,9 @@ color: #0063a0;
     top: 18.75rem;
     right: 5.6rem;
   }
+  .padding-right{
+    padding-right: 5rem!important;
+  }
   /* section 4 Benefits of Joining Homefinder UK css end */
 
   /* section 5 success stories css start*/
@@ -5801,6 +5805,12 @@ color: #0063a0;
     padding-right: 3.125rem;
   }
   /* section 3 Social housing outside your area css end */
+
+  /* section 4 css start*/
+  .padding-right{
+    padding-right: 7rem!important;
+  }
+  /* section 4 css end */
 
   /* section 6 Truth in numbers css start*/
   .truth-in-numbers .owl-prev {
