@@ -496,12 +496,12 @@ nav ul li {
   text-align: left;
 }
 .border-right-custom {
-  border-right: 1px solid rgba(0, 0, 0, 0.2);
-  height: 240px;
+  border-right: 0.0625rem solid rgba(0, 0, 0, 0.2);
+  height: 15rem;
 }
 .border-right-custom-sm {
-  border-right: 1px solid rgba(0, 0, 0, 0.2);
-  height: 280px;
+  border-right: 0.0625rem solid rgba(0, 0, 0, 0.2);
+  height: 17.5rem;
 }
 .section4_benefits_of_joining_img {
   margin-top: 1.25rem;
@@ -994,7 +994,7 @@ nav ul li {
   z-index: 9;
   font-size: 1rem;
   background-color: rgba(164, 25, 92, 0.8);
-  border-radius: 20px 0px 0px 20px;
+  border-radius: 1.25rem 0rem 0rem 1.25rem;
   bottom: 18.2rem;
 }
 .latest_news_card h3 {
@@ -1376,7 +1376,7 @@ footer ul li a:active {
 }
 .search_property_result .form-check-input[type="checkbox"] {
   border-radius: 0rem;
-  border: 1.2px solid #aaaaaa;
+  border: 0.075rem solid #aaaaaa;
 }
 .search_property_result .form-check {
   font-size: 1rem;
@@ -1748,7 +1748,7 @@ footer ul li a:active {
   cursor: pointer;
 }
 .login-to-bid-heading a:hover{
-  color: #0063a0!important;
+  color: #C2420F!important;
 }
 .form-check-input {
   cursor: pointer;
@@ -1780,14 +1780,14 @@ footer ul li a:active {
 .login-to-bid-heading p a:hover,
 .login-to-bid-heading p a:focus,
 .login-to-bid-heading p a:active  {
-color: #0063a0;
+color: #0063a0!important;
 }
 .login-to-bid-heading .form-control {
   border-radius: 0rem;
 }
 .border-loginto-bid {
   border: 0.0625rem solid #dee2e6 !important;
-  border-radius: 0px 20px;
+  border-radius: 0rem 1.25rem;
 }
 /* login to bid css end */
 
@@ -3343,8 +3343,8 @@ color: #0063a0;
     font-size: 2rem;
   }
   .border-right-custom-sm {
-    border-right: 1px solid rgba(0, 0, 0, 0.2);
-    height: 250px;
+    border-right: 0.0625rem solid rgba(0, 0, 0, 0.2);
+    height: 15.625rem;
   }
   .section4_button2_ctn {
     border: none;
@@ -4070,7 +4070,7 @@ color: #0063a0;
     font-size: 1.125rem;
     line-height: 1.3125rem;
     font-weight: 400;
-    padding: 0.9375rem 6.25rem 0.9375rem 6.25rem;
+    padding: 0.9375rem 4.25rem 0.9375rem 4.25rem;
     margin-left: 0rem;
   }
   .section4_button1_ctn {
@@ -4080,7 +4080,7 @@ color: #0063a0;
     font-size: 1.125rem;
     line-height: 1.3125rem;
     font-weight: 400;
-    padding: 0.9375rem 1.875rem 0.9375rem 1.875rem;
+    padding: 0.9375rem 0.875rem 0.9375rem 0.875rem;
     margin-bottom: 1.4375rem;
     margin-left: 6.25rem;
     float: left;
@@ -4402,7 +4402,7 @@ color: #0063a0;
     font-size: 1.125rem;
     line-height: 1.3125rem;
     font-weight: 400;
-    padding: 0.9375rem 6.875rem 0.9375rem 6.875rem;
+    padding: 0.9375rem 5.2rem 0.9375rem 5.2rem;
     margin-left: 0.3125rem;
   }
   .section4_benefits_of_joining .owl-prev {
@@ -4433,14 +4433,14 @@ color: #0063a0;
     float: right;
   }
   .local-authorities-cta {
-    width: 30%;
+    width: 32%;
     height: 2.8125rem;
     font-size: 1.125rem;
     margin-right: 0.625rem;
     border: 0.0625rem solid #f29200;
   }
   .housing-Assoiciations-cta {
-    width: 30%;
+    width: 32%;
     height: 2.8125rem;
     font-size: 1.125rem;
     border: 0.0625rem solid #ea5012;
@@ -4448,7 +4448,7 @@ color: #0063a0;
     color: #484848;
   }
   .member-Orgranisations-cta {
-    width: 30%;
+    width: 32%;
     height: 2.8125rem;
     font-size: 1.125rem;
     border: 0.0625rem solid #a4195c;
@@ -5845,18 +5845,18 @@ color: #0063a0;
 }
 .img-login{
   position: absolute;
-    left: -240px;
-    top: 50px;
-    border-radius: 40px 0px;
+    left: -15rem;
+    top: 2.5rem;
+    border-radius: 2.5rem 0rem;
 }
 /* login page css end */
 
 /* go to my account css start */
 .img-go-to-y-account{
   position: absolute;
-    left: -240px;
-    top: 0px;
-    border-radius: 40px 0px;
+    left: -15rem;
+    top: 0rem;
+    border-radius: 2.5rem 0rem;
 }
 /* go to my account end */
 
@@ -5877,8 +5877,8 @@ color: #0063a0;
   .my-current-bids .nav {
     background-color: #a4195c;
     justify-content: space-between;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
 }
   .my-current-bids h3 {
     font-size: 1.5rem;
